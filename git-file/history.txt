@@ -1,0 +1,16 @@
+  858  git filter-branch --index-filter 'git rm --cached FILE-NAME --ignore-unmatch' --prune-empty --tag-name-filter cat -- --all
+  859  ls -al
+  860  cat File-1.txt
+  861  exit
+  862  exit
+  863  Ssh ec2-user@linux.itcareerhub.de\n
+  864  Ssh ec2-user@linux.itcareerhub.de\n
+  865  Ssh ec2-user@linux.itcareerhub.de\n
+  866  git clone git@github.com:spitsalist/git-file.git
+  867  cd git-file
+  868  git checkout -b feature
+  869  git add README.md .gitignore
+  870  git commit -m "обновлено README.md and .gitignore"
+  871  git push origin feature
+  872  git checkout main
+  873  git merge feature
